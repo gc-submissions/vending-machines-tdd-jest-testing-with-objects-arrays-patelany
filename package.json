@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
-    "test": "jest",
+    "test": "jest --verbose",
     "test:dev": "jest --watchAll --verbose"
   },
   "author": "",
